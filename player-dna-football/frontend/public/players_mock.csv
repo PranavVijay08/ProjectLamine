@@ -1,0 +1,151 @@
+player_id,player_name,age,nationality,club,league,position,preferred_foot,minutes,goals_per90,assists_per90,xg_per90,xa_per90,shots_per90,key_passes_per90,progressive_passes_per90,progressive_carries_per90,successful_dribbles_per90,pass_completion_pct,touches_attacking_third_per90,pressures_per90,tackles_per90,interceptions_per90,aerial_win_pct,defensive_duels_won_pct,carries_into_box_per90,passes_into_box_per90,final_third_entries_per90,style_label
+1,Bukayo Saka,24,England,Arsenal,Premier League,RW,Left,2217,0.45,0.33,0.45,0.42,2.57,2.34,3.27,4.1,1.88,77.5,44.8,14.62,0.97,0.52,46.3,56.3,1.37,1.33,4.02,Advanced creator
+2,Lamine Yamal,18,Spain,Barcelona,La Liga,RW,Left,2793,0.36,0.41,0.35,0.32,1.96,2.71,3.18,5.31,2.42,82.8,35.88,13.28,1.27,0.67,47.6,51.5,1.52,1.37,5.21,Direct ball-carrying winger
+3,Jamal Musiala,23,Germany,Bayern Munich,Bundesliga,AM,Right,2045,0.4,0.39,0.35,0.45,2.38,3.15,5.72,4.77,2.27,84.9,38.82,17.35,1.19,0.8,52.7,60.5,1.19,1.59,7.51,Advanced creator
+4,Florian Wirtz,23,Germany,Liverpool,Premier League,AM,Right,1641,0.36,0.4,0.37,0.47,2.12,3.44,4.06,3.65,1.75,87.1,42.27,13.38,1.22,0.88,47.3,54.8,1.26,1.92,5.73,Advanced creator
+5,Vinicius Junior,25,Brazil,Real Madrid,La Liga,LW,Right,2410,0.51,0.3,0.38,0.32,2.99,1.8,3.31,5.38,2.52,84,44.54,14.49,0.95,0.67,48.2,57.3,2.19,1.29,4.73,Direct ball-carrying winger
+6,Kylian Mbappe,27,France,Real Madrid,La Liga,ST,Right,1877,0.86,0.23,0.73,0.24,3.94,1.17,2.47,2.02,1.26,81,27.37,10.94,0.75,0.55,51.2,54.6,0.89,1.1,2.02,Transition striker
+7,Erling Haaland,25,Norway,Manchester City,Premier League,ST,Left,2208,0.88,0.23,0.57,0.17,4.02,1.38,2.51,1.7,1.07,81.6,18.84,14.62,0.75,0.56,52.3,53.5,1.33,0.88,1.7,Transition striker
+8,Jude Bellingham,22,England,Real Madrid,La Liga,CM,Right,2535,0.21,0.29,0.29,0.37,1.39,2.14,5.11,2.32,0.93,85.6,23.59,26.94,2.18,1.16,44.8,53.6,0.52,1.78,4.6,Press-resistant controller
+9,Pedri,23,Spain,Barcelona,La Liga,CM,Right,1679,0.25,0.36,0.24,0.32,1.57,1.84,6.53,2.91,1.15,84.7,32.31,23.63,2.68,1.1,45.3,51.2,0.57,1.16,5.81,Box-crashing midfielder
+10,Rodri,29,Spain,Manchester City,Premier League,DM,Right,2160,0.15,0.27,0.24,0.3,0.86,1.05,8.33,2.16,0.78,94.8,15.89,25.55,3.39,2.41,44.8,60.2,0.33,0.88,5.04,Defensive ball-winner
+11,Martin Odegaard,27,Norway,Arsenal,Premier League,AM,Left,2494,0.43,0.38,0.28,0.38,2.64,3,3.79,3.94,1.88,87.5,41.22,14.8,1.16,0.9,49.5,51.4,1.31,1.81,6.19,Advanced creator
+12,Phil Foden,25,England,Manchester City,Premier League,AM,Left,2482,0.35,0.48,0.4,0.51,2.02,3.29,6.36,3.13,1.51,81.3,51.13,13.52,1.54,0.67,51.2,51.4,1.04,2.2,4.9,Advanced creator
+13,Cole Palmer,23,England,Chelsea,Premier League,AM,Left,1977,0.32,0.38,0.34,0.44,1.84,3.03,5.87,4.02,1.92,79.4,37.46,13.26,1.16,0.6,44.3,55,1.06,1.61,6.32,Advanced creator
+14,Declan Rice,27,England,Arsenal,Premier League,DM,Right,2244,0.11,0.17,0.25,0.31,0.75,1.12,7.34,2.21,0.8,89.6,19.08,24.93,2.4,1.88,50.3,56,0.3,0.74,5.16,Deep-lying distributor
+15,Bruno Fernandes,31,Portugal,Manchester United,Premier League,AM,Right,2101,0.29,0.41,0.27,0.37,1.6,2.92,4.03,3.19,1.54,82.1,42.22,19.07,1.26,0.7,52.8,59.4,0.87,2.48,5.01,Advanced creator
+16,Mohamed Salah,33,Egypt,Liverpool,Premier League,RW,Left,1849,0.38,0.3,0.37,0.34,2.07,2,2.59,5.6,2.54,80.2,38.99,17.77,0.88,0.6,49.2,53.6,1.41,1.78,5.49,Direct ball-carrying winger
+17,Kevin De Bruyne,34,Belgium,Napoli,Serie A,CM,Right,1976,0.28,0.32,0.26,0.34,1.7,2.02,5.4,2.67,1.06,91.8,39.11,16.86,2.36,1.58,47.9,56.4,0.62,1.16,5.3,Box-crashing midfielder
+18,Bernardo Silva,31,Portugal,Manchester City,Premier League,CM,Left,1858,0.25,0.31,0.19,0.27,1.57,1.44,7.41,2.9,1.15,89.3,23.78,27.03,2.3,1.4,43.7,51.6,0.67,1.2,5.79,Press-resistant controller
+19,Rafael Leao,26,Portugal,AC Milan,Serie A,LW,Right,2337,0.43,0.32,0.45,0.38,2.39,1.55,3.13,5.42,2.54,83.9,39.55,12.54,1.02,0.67,49,52.7,1.62,1.1,4.77,Direct ball-carrying winger
+20,Khvicha Kvaratskhelia,25,Georgia,Paris Saint-Germain,Ligue 1,LW,Right,1779,0.53,0.31,0.51,0.44,3.12,2.29,3.84,5.03,2.36,84.6,35.86,20.17,1,0.69,51.2,57,2.18,1.3,4.43,Advanced creator
+21,Victor Osimhen,27,Nigeria,Galatasaray,Super Lig,ST,Right,2529,0.74,0.12,0.54,0.11,3.64,1.02,1.82,1.52,0.93,72.6,26.51,13,0.59,0.31,48,58.6,0.93,0.87,1.52,Transition striker
+22,Harry Kane,32,England,Bayern Munich,Bundesliga,ST,Right,1739,0.66,0.18,0.74,0.22,3.18,1.51,1.94,1.81,1.1,74.6,26.31,15.04,0.72,0.35,51.8,53.5,0.96,0.65,1.81,Transition striker
+23,Lautaro Martinez,28,Argentina,Inter,Serie A,ST,Right,1688,0.54,0.17,0.75,0.22,2.58,0.95,1.8,2.05,1.25,76.3,17.51,12.44,0.71,0.39,49.4,58.9,0.91,0.88,2.05,Transition striker
+24,Julian Alvarez,26,Argentina,Atletico Madrid,La Liga,ST,Right,1891,0.53,0.24,0.54,0.12,2.52,1.03,2.61,2.35,1.43,72.5,24.79,10.87,0.88,0.31,43.4,59.2,1.03,0.66,2.35,Transition striker
+25,Alexander Isak,26,Sweden,Newcastle United,Premier League,ST,Right,1589,0.75,0.12,0.74,0.21,3.64,1.05,2.56,2.15,1.31,75.3,22.69,17.25,0.58,0.37,49.9,55.2,0.82,0.83,2.15,Transition striker
+26,Ollie Watkins,30,England,Aston Villa,Premier League,ST,Right,2234,0.67,0.15,0.48,0.09,3.25,1.03,2.79,1.51,0.93,74.5,18.3,10.6,0.66,0.35,48.4,51.3,1.01,0.99,1.51,Transition striker
+27,Darwin Nunez,26,Uruguay,Liverpool,Premier League,ST,Right,2162,0.62,0.13,0.47,0.08,3.01,1.25,2.27,1.91,1.17,74.5,28.17,15.27,0.59,0.35,44.2,60.4,1.19,0.98,1.91,Transition striker
+28,Benjamin Sesko,23,Slovenia,RB Leipzig,Bundesliga,ST,Right,1655,0.81,0.21,0.62,0.15,3.98,1.17,2.1,1.97,1.2,74.8,26.32,14.47,0.79,0.36,47,51.2,1.1,0.97,1.97,Transition striker
+29,Jonathan David,26,Canada,Juventus,Serie A,ST,Right,2804,0.82,0.25,0.62,0.15,4.02,0.99,1.71,1.92,1.17,79.1,19.16,15.45,0.9,0.44,47.5,56.1,1.3,0.73,1.92,Transition striker
+30,Serhou Guirassy,30,Guinea,Borussia Dortmund,Bundesliga,ST,Right,1556,0.54,0.18,0.57,0.13,2.57,1.08,2.29,2.22,1.35,80.7,21.46,17.41,0.74,0.47,46.8,57.1,0.88,0.97,2.22,Transition striker
+31,Randal Kolo Muani,27,France,Paris Saint-Germain,Ligue 1,ST,Right,1865,0.52,0.13,0.79,0.24,2.47,1.35,2.39,1.94,1.18,77,25.81,13.2,0.59,0.4,43.8,58.4,0.92,1.01,1.94,Transition striker
+32,Marcus Thuram,28,France,Inter,Serie A,ST,Right,2538,0.7,0.19,0.6,0.15,3.42,1.3,2.74,2.33,1.42,79.5,23.23,10.74,0.75,0.45,52.6,52.3,1.03,0.91,2.33,Transition striker
+33,Viktor Gyokeres,27,Sweden,Arsenal,Premier League,ST,Right,2281,0.52,0.12,0.7,0.19,2.47,1.1,2.67,2.57,1.56,79.6,17.09,12.06,0.57,0.45,49.4,57.1,1.03,0.78,2.57,Transition striker
+34,Gabriel Martinelli,24,Brazil,Arsenal,Premier League,LW,Right,2147,0.37,0.35,0.43,0.35,2.41,1.81,3.05,4.84,2.24,77.3,35.68,21.4,1.31,0.43,49.5,55.3,1.64,1.09,4.25,Direct ball-carrying winger
+35,Luis Diaz,29,Colombia,Liverpool,Premier League,LW,Right,2779,0.33,0.24,0.44,0.37,2.12,1.9,3.33,6.85,3.15,79.6,37.44,18.11,0.91,0.49,46.6,53.9,1.99,1.35,6.01,Direct ball-carrying winger
+36,Cody Gakpo,26,Netherlands,Liverpool,Premier League,LW,Right,1675,0.4,0.21,0.38,0.31,2.63,2.29,3.58,4.35,2.01,78.4,35.28,19.84,0.81,0.46,52.6,57,2.32,1.52,3.82,Advanced creator
+37,Nico Williams,23,Spain,Athletic Club,La Liga,LW,Right,2137,0.35,0.24,0.34,0.28,2.27,2.28,2.88,5.56,2.56,79.9,37.42,14.61,0.9,0.5,48.4,58,2.01,1.1,4.88,Direct ball-carrying winger
+38,Raphinha,29,Brazil,Barcelona,La Liga,RW,Left,2744,0.35,0.31,0.4,0.37,2.28,1.65,2.79,4.95,2.22,82.3,43.55,20.11,1.09,0.59,46.6,54.2,1.53,1.62,4.85,Advanced creator
+39,Rodrygo,25,Brazil,Real Madrid,La Liga,RW,Right,2427,0.42,0.35,0.34,0.31,2.8,1.88,2.61,5.46,2.44,82.1,46.6,21.24,1.23,0.58,44,52.9,1.53,1.53,5.35,Direct ball-carrying winger
+40,Ousmane Dembele,29,France,Paris Saint-Germain,Ligue 1,RW,Both,1655,0.33,0.28,0.41,0.38,2.12,2.41,3.74,5.17,2.31,82.8,31.35,19.55,0.99,0.6,44,60.2,2,1.35,5.07,Advanced creator
+41,Michael Olise,24,France,Bayern Munich,Bundesliga,RW,Left,2332,0.4,0.33,0.32,0.29,2.71,2.54,3.49,5.04,2.26,81.6,41.72,13.06,1.15,0.57,52.9,51.7,2.04,1.21,4.94,Advanced creator
+42,Xavi Simons,23,Netherlands,RB Leipzig,Bundesliga,AM,Right,2507,0.21,0.4,0.2,0.29,1.52,2.31,4.59,3.29,1.55,88.6,37.24,16.83,1.43,0.87,46.9,56.7,1.23,1.56,5.21,Advanced creator
+43,Dominik Szoboszlai,25,Hungary,Liverpool,Premier League,CM,Right,2798,0.2,0.26,0.2,0.28,1.6,1.66,5.63,2.16,0.83,87.8,38.24,21.78,2.35,1.24,52.6,56.3,0.48,1.51,4.34,Box-crashing midfielder
+44,Eberechi Eze,27,England,Arsenal,Premier League,AM,Right,2429,0.26,0.39,0.23,0.33,1.81,2.94,5.08,4.83,2.26,87.1,31.66,16.45,1.42,0.81,45.3,51.9,1.15,1.53,7.65,Advanced creator
+45,Morgan Gibbs-White,26,England,Nottingham Forest,Premier League,AM,Right,1785,0.31,0.39,0.23,0.33,2.17,3.31,4.78,4.07,1.91,82.6,33.16,18.35,1.43,0.65,50,56.4,0.91,2.36,6.45,Advanced creator
+46,James Maddison,29,England,Tottenham Hotspur,Premier League,AM,Right,2375,0.29,0.28,0.26,0.36,2.05,2.54,5.84,3.43,1.61,86.2,49.98,14.36,0.96,0.78,45.7,56.9,1.29,1.54,5.42,Advanced creator
+47,Mason Mount,27,England,Manchester United,Premier League,CM,Right,1622,0.15,0.28,0.21,0.29,1.35,1.62,6.08,3.08,1.17,90.6,35.31,26.39,2.49,1.42,44.3,60.6,0.56,1.32,6.23,Press-resistant controller
+48,Kai Havertz,26,Germany,Arsenal,Premier League,AM,Left,1957,0.33,0.37,0.2,0.29,2.35,3.07,4,3.42,1.61,79.4,43.58,22.05,1.34,0.53,45.6,59.5,0.77,1.9,5.41,Advanced creator
+49,Dani Olmo,27,Spain,Barcelona,La Liga,AM,Right,1739,0.31,0.34,0.25,0.35,2.21,2.89,5.68,4.03,1.89,83.8,49.46,22.64,1.2,0.69,48.8,59.7,0.79,1.71,6.38,Advanced creator
+50,Paulo Dybala,32,Argentina,Roma,Serie A,AM,Left,1784,0.3,0.35,0.24,0.34,2.15,2.4,4.69,3.93,1.84,85.8,31.91,22.71,1.23,0.76,45.9,54,0.9,1.5,6.22,Advanced creator
+51,Federico Chiesa,28,Italy,Liverpool,Premier League,RW,Right,2815,0.35,0.26,0.36,0.33,2.3,2.66,2.81,5.24,2.35,85.8,29.96,17.06,0.91,0.68,49.2,58.6,1.95,1.62,5.14,Advanced creator
+52,Christian Pulisic,27,United States,AC Milan,Serie A,RW,Right,1618,0.28,0.24,0.3,0.27,1.8,1.93,3.65,4.3,1.93,76.9,34.97,18.04,0.84,0.43,47.3,55.1,1.56,1.72,4.22,Advanced creator
+53,Noah Okafor,25,Switzerland,AC Milan,Serie A,LW,Right,2826,0.44,0.25,0.41,0.34,2.95,1.5,3.1,4.7,2.17,83.5,47.46,19.23,0.93,0.59,46.4,54.3,1.78,1.34,4.13,Direct ball-carrying winger
+54,Jeremy Doku,23,Belgium,Manchester City,Premier League,LW,Right,2101,0.37,0.34,0.32,0.25,2.38,1.67,3.88,4.6,2.13,79.8,30.35,20.07,1.27,0.49,48,58.2,1.69,0.98,4.04,Direct ball-carrying winger
+55,Savinho,21,Brazil,Manchester City,Premier League,RW,Left,1843,0.36,0.33,0.27,0.24,2.39,2.36,3.42,3.87,1.74,84.3,42.26,15.73,1.15,0.64,51.4,58.7,1.97,1.34,3.8,Advanced creator
+56,Ansu Fati,23,Spain,Barcelona,La Liga,LW,Right,2196,0.38,0.32,0.32,0.26,2.45,1.84,2.45,6.6,3.04,84,46.03,12.88,1.19,0.6,45.2,52.8,1.84,1.09,5.79,Direct ball-carrying winger
+57,Ferran Torres,26,Spain,Barcelona,La Liga,RW,Right,2481,0.32,0.33,0.3,0.27,2.06,1.92,3.26,3.93,1.77,85.4,32.91,14.59,1.17,0.67,52.4,59.9,1.94,1.24,3.86,Advanced creator
+58,Takefusa Kubo,24,Japan,Real Sociedad,La Liga,RW,Left,2620,0.35,0.25,0.37,0.34,2.3,1.64,2.86,6.07,2.71,85.6,40.81,14.65,0.88,0.68,51.6,58.1,2.08,1.47,5.96,Direct ball-carrying winger
+59,Bryan Mbeumo,26,Cameroon,Manchester United,Premier League,RW,Left,1980,0.31,0.33,0.39,0.36,2,1.61,4.14,4.23,1.9,76.8,32.7,16.35,1.14,0.43,50,60.4,1.8,1.48,4.15,Advanced creator
+60,Antoine Semenyo,26,Ghana,Bournemouth,Premier League,RW,Right,2120,0.4,0.28,0.4,0.37,2.66,1.92,3.74,5.36,2.4,79.6,41.25,19.66,0.98,0.51,48.2,55.2,1.82,1.13,5.26,Direct ball-carrying winger
+61,Ilkay Gundogan,35,Germany,Manchester City,Premier League,CM,Right,1740,0.07,0.2,0.11,0.19,1.15,1.44,8.38,2.75,1.02,88.6,28.19,16.44,2.25,1.24,44.1,53.2,0.47,1.22,5.61,Press-resistant controller
+62,Nicolo Barella,29,Italy,Inter,Serie A,CM,Right,2033,0.1,0.21,0.12,0.2,1.32,1.63,8.56,3.32,1.23,83.6,23.02,18.46,2.35,0.9,43.7,59.3,0.56,1.42,6.76,Press-resistant controller
+63,Federico Valverde,27,Uruguay,Real Madrid,La Liga,CM,Right,1640,0.19,0.11,0.11,0.19,1.76,2.23,6.68,3.36,1.25,85.8,33.33,19.58,1.58,1.06,52.4,56,0.38,1.12,6.85,Box-crashing midfielder
+64,Aurelien Tchouameni,26,France,Real Madrid,La Liga,DM,Right,2007,0.09,0.1,0.1,0.16,0.91,1.23,6.22,2.06,0.67,85.3,14.91,22.25,2.82,1.32,46.9,54.1,0.08,0.81,4.96,Deep-lying distributor
+65,Eduardo Camavinga,23,France,Real Madrid,La Liga,CM,Left,2332,0.09,0.25,0.07,0.15,1.24,1.92,6.85,3.22,1.19,90.7,29.11,22.49,2.59,1.38,44.6,60.6,0.56,1.34,6.57,Press-resistant controller
+66,Enzo Fernandez,25,Argentina,Chelsea,Premier League,CM,Right,2313,0.19,0.11,0.16,0.24,1.76,2.24,6.67,2.64,0.98,84,23.63,21.71,1.56,0.93,52.8,52.1,0.5,1.46,5.39,Press-resistant controller
+67,Moises Caicedo,24,Ecuador,Chelsea,Premier League,DM,Right,2296,0.13,0.06,0.03,0.09,1.01,1.1,7.86,1.77,0.57,87.4,17.59,26.94,2.45,1.54,47.9,59.5,0.14,0.88,4.28,Deep-lying distributor
+68,Alexis Mac Allister,27,Argentina,Liverpool,Premier League,CM,Right,2104,0.07,0.16,0.08,0.16,1.18,1.87,7.12,3.24,1.2,92.2,36.06,24.67,1.97,1.48,49.6,55.6,0.55,1.07,6.59,Press-resistant controller
+69,Ryan Gravenberch,24,Netherlands,Liverpool,Premier League,CM,Right,2467,0.09,0.11,0.18,0.26,1.27,2,8.25,2.91,1.08,87.1,38.95,24.98,1.56,1.14,43.9,51.3,0.56,1.45,5.93,Press-resistant controller
+70,Vitinha,26,Portugal,Paris Saint-Germain,Ligue 1,CM,Right,2541,0.18,0.18,0.11,0.19,1.67,2,7.63,3.2,1.19,83.3,35.44,22.7,2.07,0.88,44.9,59.5,0.46,1.43,6.52,Box-crashing midfielder
+71,Warren Zaire-Emery,20,France,Paris Saint-Germain,Ligue 1,CM,Right,2611,0.19,0.26,0.17,0.25,1.73,2.15,4.95,2.6,0.96,87.8,28.29,25.27,2.68,1.19,51.2,56.6,0.52,1.68,5.29,Press-resistant controller
+72,Joao Neves,21,Portugal,Paris Saint-Germain,Ligue 1,DM,Right,1588,0,0.08,0.03,0.09,0.6,0.94,8.66,1.83,0.59,90.7,22.13,18.58,2.6,1.87,50.2,56,0.19,0.64,4.41,Deep-lying distributor
+73,Manuel Ugarte,24,Uruguay,Manchester United,Premier League,DM,Right,2291,0.01,0.14,0.08,0.14,0.68,1.1,8.05,1.85,0.6,88.8,18.57,22.78,3.23,1.68,47.7,60.2,0.22,0.97,4.47,Defensive ball-winner
+74,Sandro Tonali,25,Italy,Newcastle United,Premier League,CM,Right,2410,0.11,0.18,0.12,0.2,1.35,1.89,6.16,2.98,1.1,90.2,28.47,17.73,2.06,1.35,46.1,57.3,0.36,1.75,6.06,Press-resistant controller
+75,Bruno Guimaraes,28,Brazil,Newcastle United,Premier League,CM,Right,2363,0.17,0.1,0.12,0.2,1.65,2,5.47,2.2,0.81,89.9,33.12,20.02,1.52,1.33,50.1,55.2,0.45,1.59,4.47,Press-resistant controller
+76,Douglas Luiz,28,Brazil,Juventus,Serie A,CM,Right,2733,0.1,0.21,0.14,0.22,1.32,2.3,5.98,3.15,1.17,85.3,28.59,18.7,2.34,1.02,48.7,54.6,0.4,1.18,6.41,Press-resistant controller
+77,Teun Koopmeiners,28,Netherlands,Juventus,Serie A,CM,Left,1685,0.12,0.24,0.17,0.25,1.38,1.5,5.51,2.72,1.01,90.7,27.43,19.35,2.57,1.38,47.6,53.1,0.54,1.37,5.54,Press-resistant controller
+78,Ederson Silva,26,Brazil,Atalanta,Serie A,DM,Right,2779,0.06,0.16,0.08,0.14,0.83,1.34,8.86,1.8,0.58,86.1,20.41,27.01,3.34,1.4,50.6,57.4,0.14,0.8,4.34,Defensive ball-winner
+79,Hakan Calhanoglu,32,Turkey,Inter,Serie A,DM,Right,1952,0.1,0.13,0,0.04,0.93,0.81,5.66,1.54,0.5,86.7,13.32,21.3,3.14,1.46,48.2,54.3,0.18,0.97,3.71,Defensive ball-winner
+80,Frenkie de Jong,28,Netherlands,Barcelona,La Liga,CM,Right,1799,0.12,0.12,0.15,0.23,1.38,1.84,7.85,3.09,1.14,89.5,25.15,16.94,1.69,1.3,52.8,54.9,0.51,1.48,6.29,Press-resistant controller
+81,Gavi,21,Spain,Barcelona,La Liga,CM,Right,2426,0.09,0.12,0.17,0.25,1.25,1.81,6.37,2.96,1.1,87.9,34.28,28.05,1.63,1.19,45.6,58.4,0.37,1.55,6.02,Press-resistant controller
+82,Mikel Merino,29,Spain,Arsenal,Premier League,CM,Left,2694,0.11,0.2,0.13,0.21,1.34,1.79,4.96,3.06,1.13,90.1,27.25,18.34,2.24,1.34,50.7,52.2,0.33,1.65,6.24,Press-resistant controller
+83,Martin Zubimendi,27,Spain,Arsenal,Premier League,DM,Right,2752,0,0.04,0.08,0.14,0.66,0.86,7.48,1.46,0.47,87.8,19.71,22.98,2.2,1.58,51.5,59.3,0.14,1.02,3.53,Deep-lying distributor
+84,Aleix Garcia,28,Spain,Bayer Leverkusen,Bundesliga,CM,Right,2646,0.07,0.14,0.19,0.27,1.16,1.34,7.34,2.71,1.01,87.6,27.56,17.57,1.82,1.18,48,57,0.37,1.51,5.53,Press-resistant controller
+85,Granit Xhaka,33,Switzerland,Bayer Leverkusen,Bundesliga,DM,Left,2225,0,0.18,0.12,0.18,0.66,1.01,8.22,1.9,0.62,91.7,16.75,18.98,3.55,1.97,49.3,56.4,0.18,0.7,4.59,Defensive ball-winner
+86,Exequiel Palacios,27,Argentina,Bayer Leverkusen,Bundesliga,CM,Right,2330,0.06,0.25,0.12,0.2,1.09,1.99,7.51,2.07,0.77,86.9,22.68,25.27,2.59,1.12,43.5,55.6,0.5,1.58,4.21,Press-resistant controller
+87,Leon Goretzka,31,Germany,Bayern Munich,Bundesliga,CM,Right,2073,0.13,0.18,0.15,0.23,1.43,1.73,6.02,3.02,1.12,89,22.35,19.35,2.12,1.27,47.9,56,0.4,1.49,6.16,Press-resistant controller
+88,Joshua Kimmich,31,Germany,Bayern Munich,Bundesliga,DM,Right,2606,0.11,0.02,0.11,0.17,0.98,0.93,8.32,1.5,0.49,93.5,13.86,24.95,2.06,2.15,52.2,53,0.07,0.61,3.63,Deep-lying distributor
+89,Konrad Laimer,28,Austria,Bayern Munich,Bundesliga,CM,Right,1790,0.19,0.12,0.14,0.22,1.72,1.5,6.59,2.07,0.76,88.6,24.01,25.96,1.63,1.24,48.2,56.6,0.41,1.4,4.21,Press-resistant controller
+90,Marcel Sabitzer,32,Austria,Borussia Dortmund,Bundesliga,CM,Right,1841,0.13,0.11,0.1,0.18,1.44,2.01,6.56,2.54,0.94,91.9,39.47,25.35,1.62,1.46,44.3,55.3,0.45,1.64,5.17,Press-resistant controller
+91,Mats Wieffer,26,Netherlands,Brighton,Premier League,DM,Right,2688,0.11,0.05,0.07,0.13,0.96,0.99,8.94,1.67,0.54,87.1,17.42,24.02,2.29,1.51,49.6,51.2,0.1,0.85,4.02,Deep-lying distributor
+92,Joao Palhinha,30,Portugal,Bayern Munich,Bundesliga,DM,Right,1819,0.01,0.15,0.09,0.15,0.69,0.92,8.16,1.94,0.63,88.5,13.96,24.88,3.25,1.65,51,53.7,0.18,1.01,4.69,Defensive ball-winner
+93,Amadou Onana,24,Belgium,Aston Villa,Premier League,DM,Right,1927,0.11,0.1,0.07,0.13,0.97,1.05,6.13,1.88,0.61,90.6,13.72,30.66,2.83,1.87,43.7,59.8,0.09,0.95,4.53,Deep-lying distributor
+94,Yves Bissouma,29,Mali,Tottenham Hotspur,Premier League,DM,Right,1653,0.09,0.14,0.1,0.16,0.9,1.29,6.93,1.66,0.54,89.4,19.9,29,3.18,1.74,45.3,53.7,0.12,0.93,4.01,Defensive ball-winner
+95,Pape Matar Sarr,23,Senegal,Tottenham Hotspur,Premier League,CM,Right,1937,0.15,0.19,0.15,0.23,1.55,2.12,5.67,2.05,0.76,92.1,23.41,24.56,2.14,1.47,46.6,51,0.36,1.44,4.18,Press-resistant controller
+96,Kobbie Mainoo,20,England,Manchester United,Premier League,CM,Right,1968,0.08,0.18,0.05,0.13,1.21,1.52,7.41,2.4,0.89,83.8,34.57,17.54,2.13,0.91,43.8,58.4,0.48,1.72,4.89,Press-resistant controller
+97,Adam Wharton,22,England,Crystal Palace,Premier League,CM,Left,1638,0.08,0.24,0.09,0.17,1.19,1.84,6.57,1.96,0.73,92.7,35.7,24.78,2.53,1.52,49,52.5,0.42,1.19,4,Press-resistant controller
+98,Archie Gray,20,England,Tottenham Hotspur,Premier League,CM,Right,2707,0.13,0.22,0.12,0.2,1.43,2.24,5.5,2.54,0.94,88.1,36.01,27.41,2.41,1.21,46.7,55.6,0.37,1.41,5.18,Press-resistant controller
+99,Curtis Jones,25,England,Liverpool,Premier League,CM,Right,2168,0.09,0.19,0.09,0.17,1.23,2.03,7.31,3.14,1.16,84.5,26.92,21.9,2.18,0.97,45.3,59.1,0.39,1.49,6.4,Press-resistant controller
+100,Conor Gallagher,26,England,Atletico Madrid,La Liga,CM,Right,2530,0.12,0.11,0.15,0.23,1.39,1.61,8.27,2.91,1.08,83.1,34.74,24.92,1.56,0.87,51.8,57,0.38,1.5,5.92,Press-resistant controller
+101,Trent Alexander-Arnold,27,England,Real Madrid,La Liga,RB,Right,2606,0.05,0.24,0,0.11,0.7,1.63,5.43,3.33,0.88,78.3,35.11,17.94,2.79,0.96,47.3,57.7,0.49,1.86,4.73,Progressive fullback
+102,Reece James,26,England,Chelsea,Premier League,RB,Right,2616,0.03,0.09,0.12,0.26,0.65,1.43,5.4,4.45,1.17,84.7,33.85,21.25,1.69,1.43,46,52.4,0.38,1.53,6.32,Progressive fullback
+103,Kyle Walker,35,England,AC Milan,Serie A,RB,Right,2798,0.11,0.21,0.09,0.23,0.83,1.27,4.57,3.79,1,85.3,21.43,24.61,2.57,1.46,48.9,57.6,0.53,1.41,5.39,Progressive fullback
+104,Achraf Hakimi,27,Morocco,Paris Saint-Germain,Ligue 1,RB,Right,2038,0,0.13,0,0.11,0.53,1.38,5.63,3.68,0.97,80,28.06,20.03,1.97,1.08,47.6,51.1,0.53,1.7,5.22,Progressive fullback
+105,Joao Cancelo,31,Portugal,Al Hilal,Saudi Pro League,LB,Right,1713,0.01,0.16,0.02,0.15,0.56,1.08,5.88,4.61,1.24,78.1,34.68,22.79,2.25,0.94,51.5,60.4,0.7,1.32,5.85,Progressive fullback
+106,Alphonso Davies,25,Canada,Bayern Munich,Bundesliga,LB,Left,1746,0,0.22,0.1,0.23,0.49,1.38,4.65,3.85,1.03,82.1,26.83,18.18,2.74,1.24,45.4,52.7,0.57,1.09,4.88,Progressive fullback
+107,Theo Hernandez,28,France,Al Hilal,Saudi Pro League,LB,Left,1882,0.02,0.19,0.06,0.19,0.59,1.77,3.69,3.45,0.93,83.8,25.42,18.63,2.5,1.36,46.8,57.1,0.43,1.02,4.38,Progressive fullback
+108,Federico Dimarco,28,Italy,Inter,Serie A,LB,Left,1672,0,0.09,0.04,0.17,0.48,1.25,5.7,4.44,1.19,84.2,30.35,22.2,1.75,1.39,49.1,58.3,0.68,1.55,5.63,Progressive fullback
+109,Nuno Mendes,23,Portugal,Paris Saint-Germain,Ligue 1,LB,Left,1785,0,0.19,0,0.09,0.44,1.18,5.33,5.2,1.39,83,33.24,22.2,2.51,1.3,44.1,57.2,0.52,1.17,6.59,Progressive fullback
+110,Alejandro Balde,22,Spain,Barcelona,La Liga,LB,Left,2722,0,0.17,0.09,0.22,0.44,1.72,4.73,5.12,1.37,81,24.55,24.37,2.38,1.16,49.7,54.2,0.4,1.03,6.49,Progressive fullback
+111,Marc Cucurella,27,Spain,Chelsea,Premier League,LB,Left,2254,0,0.22,0,0.12,0.47,1.37,4.5,4.51,1.21,80.2,23.62,18.39,2.75,1.09,49.9,60.9,0.68,1.35,5.72,Progressive fullback
+112,Destiny Udogie,23,Italy,Tottenham Hotspur,LB,Left,undefined,1978,0.04,0.06,0.06,0.06,0.04,0.05,0.02,0.05,0.05,35,0.02,0.02,0.06,0,51.5,55.4,0.02,0,0.05,undefined
+113,Pedro Porro,26,Spain,Tottenham Hotspur,Premier League,RB,Right,2178,0,0.18,0.01,0.15,0.57,1.14,4.28,3.73,0.98,83.6,28.63,21.01,2.32,1.34,46.4,54.5,0.59,1.57,5.29,Progressive fullback
+114,Jeremie Frimpong,25,Netherlands,Liverpool,Premier League,RB,Right,1908,0,0.12,0.11,0.25,0.49,1.23,3.61,2.97,0.78,78.4,23.13,17.85,1.85,0.97,47.1,60.2,0.38,1.12,4.22,Progressive fullback
+115,Denzel Dumfries,29,Netherlands,Inter,Serie A,RB,Right,1685,0,0.2,0.05,0.19,0.52,1.33,4.86,4.84,1.27,82.5,26.87,17.75,2.53,1.26,52.9,55.3,0.41,1.15,6.88,Progressive fullback
+116,Diogo Dalot,27,Portugal,Manchester United,Premier League,RB,Right,2296,0.08,0.17,0.11,0.25,0.75,1.11,4.55,4.47,1.18,79,33.09,21.26,2.3,1.01,44.3,55.4,0.55,1.08,6.35,Progressive fullback
+117,Pervis Estupinan,28,Ecuador,Brighton,Premier League,LB,Left,2314,0.03,0.15,0.05,0.18,0.6,1.11,5.61,4.23,1.14,86.1,21.75,22.72,2.2,1.53,46,58.2,0.4,1.58,5.37,Progressive fullback
+118,Tyrick Mitchell,26,England,Crystal Palace,Premier League,LB,Left,2123,0,0.1,0,0.1,0.48,1.01,4.2,3.45,0.92,82.7,35.13,16.06,1.84,1.28,44.2,52,0.52,1.26,4.37,Progressive fullback
+119,Milos Kerkez,22,Hungary,Liverpool,Premier League,LB,Left,2758,0.01,0.21,0.03,0.16,0.56,1.12,5.77,4.96,1.33,86.1,21.53,16.79,2.64,1.53,50,60.8,0.69,1.64,6.29,Progressive fullback
+120,Rayan Ait-Nouri,24,Algeria,Manchester City,Premier League,LB,Left,2141,0.04,0.17,0.02,0.15,0.61,1.44,4.76,5.08,1.36,78.3,24.08,23.44,2.32,0.96,45.7,54.5,0.62,1.78,6.44,Progressive fullback
+121,Virgil van Dijk,34,Netherlands,Liverpool,Premier League,CB,Right,1733,0.08,0.09,0.12,0.1,0.63,0.4,3.45,0.98,0.2,90.9,7.45,10.46,1.79,1.88,70.9,66.3,0.02,0.15,1.38,Defensive ball-winner
+122,William Saliba,24,France,Arsenal,Premier League,CB,Right,2783,0.05,0,0.06,0.04,0.56,0.26,5.15,0.87,0.16,87,7.58,12,1.36,1.51,68.5,68.7,0.07,0.15,1.22,Defensive ball-winner
+123,Gabriel Magalhaes,28,Brazil,Arsenal,Premier League,CB,Left,2584,0.05,0.08,0.08,0.06,0.57,0.39,3.23,0.89,0.17,85.3,5.37,9.63,1.77,1.35,61.3,67,0.02,0.13,1.24,Defensive ball-winner
+124,Ruben Dias,28,Portugal,Manchester City,Premier League,CB,Right,2425,0.11,0,0,0,0.68,0.36,4.13,1.04,0.21,87.5,5.92,15.38,1.11,1.56,64.6,69.6,0.06,0.08,1.45,Defensive ball-winner
+125,Josko Gvardiol,24,Croatia,Manchester City,Premier League,CB,Left,2545,0.05,0.07,0.09,0.07,0.57,0.28,3.38,0.75,0.13,84.1,6.74,12.88,1.69,1.23,68,64.3,0.02,0.19,1.06,Defensive ball-winner
+126,John Stones,31,England,Manchester City,Premier League,CB,Right,2284,0.11,0.05,0.02,0,0.69,0.27,4.11,0.84,0.15,91.9,6.73,14.24,1.61,1.98,63.1,66.6,0.04,0.17,1.17,Defensive ball-winner
+127,Ibrahima Konate,26,France,Liverpool,Premier League,CB,Right,2828,0,0.05,0,0,0.43,0.44,5.27,1.15,0.24,93.6,4.75,16.24,1.59,2.14,61.2,62.5,0,0.22,1.61,Defensive ball-winner
+128,Dayot Upamecano,27,France,Bayern Munich,Bundesliga,CB,Right,2154,0.1,0,0,0,0.67,0.32,4.77,1.08,0.22,84.9,7.62,15.98,1.24,1.31,68.9,65.4,0.06,0.18,1.51,Defensive ball-winner
+129,Kim Min-jae,29,South Korea,Bayern Munich,Bundesliga,CB,Right,1656,0.11,0.07,0,0,0.68,0.36,3.37,0.9,0.17,91.2,7.61,14.56,1.69,1.91,63.4,68.6,0.09,0.07,1.26,Defensive ball-winner
+130,Antonio Rudiger,33,Germany,Real Madrid,La Liga,CB,Right,2374,0.1,0.01,0.09,0.07,0.66,0.25,4.78,1.18,0.25,87.2,5.08,12.46,1.41,1.52,66.4,62,0,0.13,1.66,Defensive ball-winner
+131,Eder Militao,28,Brazil,Real Madrid,La Liga,CB,Right,2507,0.05,0.04,0.05,0.03,0.57,0.4,4.25,0.84,0.16,89.7,5.58,15.11,1.56,1.77,62.9,68.6,0.07,0.08,1.18,Defensive ball-winner
+132,Pau Cubarsi,19,Spain,Barcelona,La Liga,CB,Right,2717,0.03,0,0,0,0.54,0.26,3.18,0.81,0.15,88.7,6.33,13.87,1.14,1.68,67.7,67.8,0,0.11,1.13,Defensive ball-winner
+133,Jules Kounde,27,France,Barcelona,La Liga,CB,Right,2317,0.11,0.08,0,0,0.68,0.29,3.59,1.04,0.21,91.1,5.95,10.08,1.75,1.9,62.4,62.7,0,0.09,1.46,Defensive ball-winner
+134,Ronald Araujo,27,Uruguay,Barcelona,La Liga,CB,Right,1949,0.05,0.02,0.01,0,0.57,0.36,4.31,1.03,0.21,91.9,5.98,14.85,1.47,1.98,67.2,68.7,0.08,0.19,1.44,Defensive ball-winner
+135,Alessandro Bastoni,27,Italy,Inter,Serie A,CB,Left,2349,0.08,0.08,0.07,0.05,0.63,0.3,4.17,0.82,0.15,88.7,6.65,12.72,1.76,1.67,67,67.5,0,0.15,1.15,Defensive ball-winner
+136,Benjamin Pavard,30,France,Inter,Serie A,CB,Right,1789,0.1,0.08,0.12,0.1,0.66,0.39,4.67,0.77,0.13,90.5,5.93,13.22,1.74,1.84,70.6,65,0,0.2,1.08,Defensive ball-winner
+137,Gleison Bremer,29,Brazil,Juventus,Serie A,CB,Right,2618,0.11,0.02,0.06,0.04,0.68,0.4,4.79,0.76,0.13,87.9,5.68,13.24,1.45,1.6,63.2,70.3,0,0.21,1.06,Defensive ball-winner
+138,Fikayo Tomori,28,England,AC Milan,Serie A,CB,Right,2171,0.06,0.1,0.04,0.02,0.59,0.38,3.95,1.06,0.22,93.7,7.16,13.6,1.88,2.14,63.6,65,0.07,0.16,1.48,Defensive ball-winner
+139,Micky van de Ven,25,Netherlands,Tottenham Hotspur,Premier League,CB,Left,1872,0.03,0.09,0.02,0,0.53,0.36,3.6,1.21,0.26,88.1,4.94,12.66,1.8,1.62,70.9,62.4,0,0.2,1.7,Defensive ball-winner
+140,Cristian Romero,28,Argentina,Tottenham Hotspur,Premier League,CB,Right,2021,0.09,0.07,0,0,0.65,0.27,3.63,0.86,0.16,93.4,6.07,12.21,1.71,2.12,68.1,69.3,0,0.22,1.2,Defensive ball-winner
+141,Lionel Messi,38,Argentina,Inter Miami,MLS,AM,Left,1759,0.27,0.35,0.28,0.39,2.18,3.05,6.43,4.54,2.09,80.7,38.01,16,1.39,0.53,47.8,53,0.81,1.46,7.21,Advanced creator
+142,Luis Suarez,39,Uruguay,Inter Miami,MLS,ST,Right,1628,0.6,0.12,0.57,0.11,3.08,1.07,2.45,1.44,0.87,77.5,21.51,10.53,0.64,0.36,52.7,52.7,1.15,0.96,1.44,Transition striker
+143,Sergio Busquets,37,Spain,Inter Miami,MLS,DM,Right,2199,0,0.05,0.12,0.18,0.67,0.95,8.3,1.48,0.48,90.3,17.13,28.17,2.33,1.83,50.3,57.8,0.23,0.88,3.56,Deep-lying distributor
+144,Sadio Mane,34,Senegal,Al Nassr,Saudi Pro League,LW,Right,2709,0.37,0.3,0.32,0.25,2.69,1.42,3.33,6.39,2.92,77.6,34.71,18.8,1.23,0.39,48.3,52,1.49,1.3,5.61,Direct ball-carrying winger
+145,Cristiano Ronaldo,41,Portugal,Al Nassr,Saudi Pro League,ST,Right,2260,0.6,0.1,0.56,0.1,3.11,1.21,2.48,1.72,1.03,75.4,18.75,16.46,0.6,0.32,43,58.9,1.12,0.59,1.72,Transition striker
+146,Karim Benzema,38,France,Al Ittihad,Saudi Pro League,ST,Right,2325,0.68,0.15,0.54,0.09,3.49,0.93,2.46,1.61,0.97,74.2,24.74,16.94,0.72,0.3,47.7,58.2,1.21,1.02,1.61,Transition striker
+147,Neymar,34,Brazil,Santos,Brasileirao,LW,Right,2733,0.35,0.23,0.25,0.19,2.6,1.42,2.74,6.97,3.18,78,44.93,13.96,1.01,0.4,44.1,56.2,1.57,1,6.12,Direct ball-carrying winger
+148,Angel Di Maria,38,Argentina,Benfica,Liga Portugal,RW,Left,2841,0.35,0.23,0.33,0.3,2.65,1.78,3.32,5.81,2.57,77,31,16.33,0.92,0.39,48.4,55.3,1.54,1.18,5.7,Direct ball-carrying winger
+149,Son Heung-min,33,South Korea,Los Angeles FC,MLS,LW,Right,2710,0.41,0.21,0.29,0.22,3.05,1.63,2.3,5.07,2.31,80.7,28.39,12.85,0.93,0.47,50,60.9,1.5,1.51,4.45,Direct ball-carrying winger
+150,Hirving Lozano,30,Mexico,San Diego FC,MLS,RW,Right,1658,0.26,0.27,0.32,0.29,1.95,1.61,3.97,4.3,1.9,77.5,34,20.99,1.07,0.4,43.8,57.1,1.96,1.16,4.21,Advanced creator
