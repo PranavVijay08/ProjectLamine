@@ -17,6 +17,10 @@ from app.ingestion.builders import (  # noqa: E402
 )
 from app.ingestion.io import REFERENCE_DIR, ensure_data_directories, write_json  # noqa: E402
 from app.ingestion.config import TOP_FIVE_LEAGUES  # noqa: E402
+from app.utils.env import load_env_file  # noqa: E402
+
+
+load_env_file(BACKEND_ROOT / ".env")
 
 
 def main() -> None:
@@ -28,6 +32,18 @@ def main() -> None:
         help="Dataset source to update.",
     )
     parser.add_argument("--season", type=int, default=None, help="Season start year for football-data.org.")
+    parser.add_argument(
+        "--min-requests-available",
+        type=int,
+        default=None,
+        help="Throttle football-data.org before the remaining request budget reaches this value.",
+    )
+    parser.add_argument(
+        "--throttle-buffer-seconds",
+        type=int,
+        default=None,
+        help="Extra seconds to wait after football-data.org says the counter resets.",
+    )
     parser.add_argument("--competition-id", type=int, default=None, help="StatsBomb competition id.")
     parser.add_argument("--season-id", type=int, default=None, help="StatsBomb season id.")
     parser.add_argument("--min-minutes", type=int, default=450, help="Minimum minutes for event-derived profiles.")
@@ -44,6 +60,8 @@ def main() -> None:
     if args.source == "mock":
         result = publish_mock_profiles(PROJECT_ROOT / "data" / "players_mock.csv")
     elif args.source == "football-data-org":
+        _apply_optional_env("FOOTBALL_DATA_ORG_MIN_REQUESTS_AVAILABLE", args.min_requests_available)
+        _apply_optional_env("FOOTBALL_DATA_ORG_THROTTLE_BUFFER_SECONDS", args.throttle_buffer_seconds)
         result = fetch_football_data_org_rosters(season=args.season)
     else:
         if args.competition_id is None or args.season_id is None:
@@ -91,11 +109,18 @@ def _write_reference_files() -> None:
             "future_paid_sources": {
                 "Wyscout": "Candidate for broad scouting metrics, rosters and event data.",
                 "StatsBomb paid API": "Candidate for high-quality event data and advanced modelling.",
-                "Opta/Stats Perform": "Candidate for official-grade live and historical football data.",
-                "Sportradar": "Candidate for B2B live, seasonal and historical sports data feeds.",
+                "Opta/Stats Perform": "Candidate for official-grade football feeds.",
+                "Sportradar": "Candidate for B2B sports data feeds and live/seasonal coverage.",
             },
         },
     )
+
+
+def _apply_optional_env(name: str, value: int | None) -> None:
+    if value is not None:
+        import os
+
+        os.environ[name] = str(value)
 
 
 if __name__ == "__main__":

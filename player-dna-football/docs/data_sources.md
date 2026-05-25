@@ -15,6 +15,16 @@ Use for:
 
 Do not use as the only Player DNA source. It does not provide the advanced style metrics needed for scout-grade player comparison.
 
+The adapter inspects rate-limit headers on every response and stores the observed values in the generated metadata file:
+
+- `X-RequestsAvailable`
+- `X-Requests-Available`
+- `X-Requests-Available-Minute`
+- `X-RequestCounter-Reset`
+- `Retry-After`
+
+When the remaining request budget reaches `FOOTBALL_DATA_ORG_MIN_REQUESTS_AVAILABLE`, the client waits for the reset window plus `FOOTBALL_DATA_ORG_THROTTLE_BUFFER_SECONDS`.
+
 ## StatsBomb Open Data
 
 Use for:

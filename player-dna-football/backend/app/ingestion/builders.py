@@ -47,8 +47,13 @@ def publish_mock_profiles(mock_csv_path: Path) -> SourceRunResult:
 
 def fetch_football_data_org_rosters(season: int | None = None) -> SourceRunResult:
     ensure_data_directories()
-    client = FootballDataOrgClient(api_token=os.getenv("FOOTBALL_DATA_ORG_TOKEN", ""))
+    client = FootballDataOrgClient(
+        api_token=os.getenv("FOOTBALL_DATA_ORG_TOKEN", ""),
+        min_requests_available=int(os.getenv("FOOTBALL_DATA_ORG_MIN_REQUESTS_AVAILABLE", "1")),
+        throttle_buffer_seconds=int(os.getenv("FOOTBALL_DATA_ORG_THROTTLE_BUFFER_SECONDS", "2")),
+    )
     payloads = client.fetch_top_five_league_teams(season=season)
+    rate_limit_metadata = client.rate_limit_metadata()
 
     timestamp = utc_now_iso()
     suffix = str(season) if season else "current"
@@ -64,14 +69,24 @@ def fetch_football_data_org_rosters(season: int | None = None) -> SourceRunResul
             "season": season,
             "league_codes": [league.code for league in TOP_FIVE_LEAGUES],
             "row_count": int(len(rosters)),
+            "rate_limit": rate_limit_metadata,
             "note": "Roster data is used for current player identity and club context, not advanced Player DNA metrics.",
         },
     )
+    last_rate_limit_state = rate_limit_metadata.get("last_rate_limit_state") or {}
     return SourceRunResult(
         source_name="football-data.org",
         raw_paths=[raw_path],
         processed_paths=[processed_path, metadata_path],
-        notes=["Fetched Top 5 league roster snapshots."],
+        notes=[
+            "Fetched Top 5 league roster snapshots.",
+            (
+                "Last football-data.org rate-limit state: "
+                f"{last_rate_limit_state.get('requests_available')} requests available, "
+                f"reset in {last_rate_limit_state.get('reset_seconds')} seconds."
+            ),
+        ],
+        metadata={"rate_limit": rate_limit_metadata},
     )
 
 

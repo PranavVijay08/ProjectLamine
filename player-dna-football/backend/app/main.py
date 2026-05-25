@@ -6,6 +6,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.models import ComparisonResponse, Player, SimilarPlayer
 from app.services.similarity_service import SimilarityFilters, SimilarityService
 from app.utils.data_loader import load_players
+from app.utils.env import load_env_file
+
+
+load_env_file()
 
 
 app = FastAPI(title="Project Lamine Player DNA API", version="0.1.0")
