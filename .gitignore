@@ -1,6 +1,5 @@
 # Local agent instructions
 AGENTS.md
-../AGENTS.md
 
 # Environment files and secrets
 .env
@@ -12,26 +11,14 @@ AGENTS.md
 *.p12
 *.pfx
 
-# Python
-.venv/
-venv/
-env/
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-
-# Node / Next.js
-node_modules/
-.next/
-out/
-dist/
-build/
-coverage/
+# Local editor and OS files
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # Logs
 *.log
@@ -40,14 +27,26 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editors and OS
-.vscode/
-!.vscode/extensions.json
-!.vscode/settings.example.json
-.idea/
-.DS_Store
-Thumbs.db
-desktop.ini
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
