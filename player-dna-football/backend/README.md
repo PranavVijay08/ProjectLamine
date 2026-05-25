@@ -33,6 +33,8 @@ PLAYER_DNA_DATA_PATH=
 - `GET /players/{player_id}`
 - `GET /players/{player_id}/similar`
 - `GET /players/{player_id}/compare/{other_player_id}`
+- `GET /data/status`
+- `GET /data/football-data-org/rosters`
 
 Similarity uses `StandardScaler` over numerical player attributes and cosine similarity. The selected player is excluded from recommendation results.
 
@@ -85,3 +87,17 @@ python scripts\update_dataset.py --source statsbomb-open --competition-id 11 --s
 ```
 
 football-data.org is used for current league/team/player roster context. StatsBomb Open Data is used to develop event-derived metrics, but its free coverage is limited and should not be treated as complete latest Top 5 league coverage.
+
+## Verifying football-data.org Data
+
+`/players` is the active Player DNA similarity dataset. It only reads rows with the full model schema, including xG, progression, pressing and duel attributes.
+
+football-data.org roster snapshots are exposed separately because they do not include those Player DNA metrics:
+
+```powershell
+Invoke-RestMethod http://localhost:8000/data/status
+(Invoke-RestMethod "http://localhost:8000/data/football-data-org/rosters?limit=10").Count
+Invoke-RestMethod "http://localhost:8000/data/football-data-org/rosters?q=Arsenal&limit=10"
+```
+
+If `/players` returns `150`, that means the active Player DNA profile dataset still has 150 rows. Check `/data/status` to confirm whether a football-data.org roster snapshot was also fetched.

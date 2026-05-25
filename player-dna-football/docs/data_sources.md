@@ -25,6 +25,13 @@ The adapter inspects rate-limit headers on every response and stores the observe
 
 When the remaining request budget reaches `FOOTBALL_DATA_ORG_MIN_REQUESTS_AVAILABLE`, the client waits for the reset window plus `FOOTBALL_DATA_ORG_THROTTLE_BUFFER_SECONDS`.
 
+Fetched football-data.org rosters are available through the backend at:
+
+- `GET /data/status`
+- `GET /data/football-data-org/rosters`
+
+They are not automatically published to `/players` because `/players` powers the similarity model and requires the full Player DNA metric schema.
+
 ## StatsBomb Open Data
 
 Use for:

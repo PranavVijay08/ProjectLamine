@@ -48,3 +48,11 @@ class ComparisonResponse(BaseModel):
     similarity_score: float
     radar_attributes: list[dict[str, Any]]
     attribute_deltas: list[dict[str, Any]]
+
+
+class DataStatus(BaseModel):
+    active_player_profile_path: str
+    active_player_profile_rows: int
+    active_player_profile_source: str
+    active_player_profile_metadata: dict[str, Any] | None
+    latest_football_data_org_roster: dict[str, Any] | None

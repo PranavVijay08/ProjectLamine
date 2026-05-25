@@ -3,9 +3,13 @@ from functools import lru_cache
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.models import ComparisonResponse, Player, SimilarPlayer
+from app.models import ComparisonResponse, DataStatus, Player, SimilarPlayer
 from app.services.similarity_service import SimilarityFilters, SimilarityService
-from app.utils.data_loader import load_players
+from app.utils.data_loader import (
+    active_dataset_status,
+    load_latest_football_data_org_rosters,
+    load_players,
+)
 from app.utils.env import load_env_file
 
 
@@ -31,6 +35,20 @@ def get_similarity_service() -> SimilarityService:
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
+
+
+@app.get("/data/status", response_model=DataStatus)
+def data_status():
+    return active_dataset_status()
+
+
+@app.get("/data/football-data-org/rosters")
+def football_data_org_rosters(
+    q: str | None = Query(default=None, description="Search by player, club or league"),
+    league: str | None = Query(default=None, description="Filter by league name"),
+    limit: int = Query(default=50, ge=1, le=500),
+):
+    return load_latest_football_data_org_rosters(query=q, league=league, limit=limit)
 
 
 @app.get("/players", response_model=list[Player])
