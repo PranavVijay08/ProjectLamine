@@ -58,3 +58,8 @@ temp/
 *.sqlite
 *.sqlite3
 *.db
+
+# Generated football data snapshots
+data/raw/**
+data/processed/*.csv
+data/processed/*.metadata.json

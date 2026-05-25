@@ -1,0 +1,29 @@
+{
+  "top_five_leagues": [
+    {
+      "code": "PL",
+      "country": "England",
+      "name": "Premier League"
+    },
+    {
+      "code": "PD",
+      "country": "Spain",
+      "name": "La Liga"
+    },
+    {
+      "code": "FL1",
+      "country": "France",
+      "name": "Ligue 1"
+    },
+    {
+      "code": "SA",
+      "country": "Italy",
+      "name": "Serie A"
+    },
+    {
+      "code": "BL1",
+      "country": "Germany",
+      "name": "Bundesliga"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ Full-stack MVP for a football player similarity app. Users can search a player, 
 
 - Frontend: Next.js App Router, TypeScript, Tailwind CSS, Recharts
 - Backend: FastAPI, pandas, scikit-learn, numpy
-- Data: local CSV mock dataset
+- Data: local CSV mock dataset plus a scalable raw/processed ingestion pipeline
 
 ## Project Structure
 
@@ -54,7 +54,9 @@ The frontend tries the FastAPI backend first. If the backend is not running, it 
 
 ## Similarity Method
 
-The backend loads `data/players_mock.csv`, standardises numerical style attributes with `StandardScaler`, calculates cosine similarity, excludes the selected player, applies optional filters, and returns similarity as a percentage.
+The backend prefers `data/processed/player_current_profiles.csv` when it exists. If that file has not been built yet, it falls back to `data/players_mock.csv`.
+
+It standardises numerical style attributes with `StandardScaler`, calculates cosine similarity, excludes the selected player, applies optional filters, and returns similarity as a percentage.
 
 Optional filters for `/players/{player_id}/similar`:
 
@@ -65,8 +67,34 @@ Optional filters for `/players/{player_id}/similar`:
 
 ## Current Limits
 
-- Mock data only
+- Top 5 league roster ingestion is supported through football-data.org
+- Event-derived profile building is supported through StatsBomb Open Data for selected open competitions
+- The active local dataset still defaults to mock data until a processed profile file is published
 - No authentication
 - No paid APIs
 - No scraping
 - No production database yet
+
+## Dataset Updates
+
+From PowerShell:
+
+```powershell
+cd player-dna-football\backend
+python scripts\update_dataset.py --source mock
+```
+
+To fetch Top 5 league roster snapshots from football-data.org:
+
+```powershell
+$env:FOOTBALL_DATA_ORG_TOKEN="your-token"
+python scripts\update_dataset.py --source football-data-org --season 2025
+```
+
+To build event-derived profiles from a StatsBomb Open Data competition:
+
+```powershell
+python scripts\update_dataset.py --source statsbomb-open --competition-id 11 --season-id 90 --min-minutes 450
+```
+
+Use `--publish` only when you intentionally want the StatsBomb-derived file to become the active backend dataset.

@@ -1,5 +1,7 @@
 # Data Dictionary
 
+The active backend dataset is `data/processed/player_current_profiles.csv` when present, otherwise `data/players_mock.csv`.
+
 | Field | Description |
 | --- | --- |
 | `player_id` | Stable integer identifier for MVP records |
@@ -31,3 +33,20 @@
 | `passes_into_box_per90` | Passes into penalty box per 90 minutes |
 | `final_third_entries_per90` | Final-third entries per 90 minutes |
 | `style_label` | Human-readable Player DNA archetype |
+
+## Supporting Data Files
+
+| File | Description |
+| --- | --- |
+| `data/raw/football_data_org/top_five_rosters_*.json` | Raw football-data.org Top 5 league roster snapshots |
+| `data/processed/top_five_rosters_*.csv` | Normalised roster context from football-data.org |
+| `data/raw/statsbomb_open/*.json` | Raw StatsBomb Open Data match, lineup and event snapshots |
+| `data/processed/statsbomb_profiles_*.csv` | Event-derived player profile rows from StatsBomb Open Data |
+| `data/reference/league_codes.json` | Top 5 league code mapping |
+| `data/reference/source_registry.json` | Current and future data-source purpose notes |
+
+## Source Notes
+
+football-data.org should be treated as roster, team, competition and fixture context for this project. It does not provide the full advanced style profile needed for Player DNA.
+
+StatsBomb Open Data is suitable for developing event-derived football logic, but its free coverage is limited to selected open competitions. Derived fields such as `xa_per90` are local approximations unless replaced by a provider metric.

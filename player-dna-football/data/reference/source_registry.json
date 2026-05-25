@@ -1,0 +1,21 @@
+{
+  "active_sources": {
+    "StatsBomb Open Data": {
+      "advanced_player_style_metrics": true,
+      "coverage_note": "Selected open competitions only; not full latest Top 5 league coverage.",
+      "requires_token": false,
+      "use": "Open event data for developing and testing event-derived Player DNA metrics."
+    },
+    "football-data.org": {
+      "advanced_player_style_metrics": false,
+      "requires_token": true,
+      "use": "Top 5 league rosters, teams, competitions and current club context."
+    }
+  },
+  "future_paid_sources": {
+    "Opta/Stats Perform": "Candidate for official-grade live and historical football data.",
+    "Sportradar": "Candidate for B2B live, seasonal and historical sports data feeds.",
+    "StatsBomb paid API": "Candidate for high-quality event data and advanced modelling.",
+    "Wyscout": "Candidate for broad scouting metrics, rosters and event data."
+  }
+}
